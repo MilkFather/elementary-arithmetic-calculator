@@ -1,8 +1,6 @@
 # Elementary Arithmetic Calculator
 A simple implementation of calculator that does elementary arithmetic.
 
-[TOC]
-
 ## Features
 * Support for elementary arithmetic calculations (+ - * / and () )
 * Some robustness. "- -3" and "+3" will render "3", and "1+ 2" will render "3"
