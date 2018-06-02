@@ -1,9 +1,11 @@
-# Elementary Arithmetic Calculator
+Â# Elementary Arithmetic Calculator
 A simple implementation of calculator that does elementary arithmetic.
 
 ## Features
 * Support for elementary arithmetic calculations (+ - * / and () )
 * Some robustness. "- -3" and "+3" will render "3", and "1+ 2" will render "3"
+* You can perform multiple calculations per execution. To quit, give an empty expression.
+* You will get notified whenever there is an error, and you can continue yo your next expression.
 
 ## Build & Clean
 * To build on Unix-like systems, just run ```make build```. The executable file ```calculator``` will appear in the directory where the code is.
@@ -12,8 +14,6 @@ A simple implementation of calculator that does elementary arithmetic.
 To clean the generated object files (*.o files), please run ```make clean```.
 
 ## Notice
-* Currently you may only perform one calculation per execution.
-* Currently no exception handling is made. The calculator will check the syntax before calculation, but it will just **crash and force close** when an syntax error is detected.
 * Feel free to open issues and make commits.
 
 ## License

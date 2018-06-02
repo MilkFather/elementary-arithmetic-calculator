@@ -37,6 +37,7 @@ double stackcalc(queue<token> exprpn) {
                             break;
                         case '/':
                             numberstack.push(num1 / num2);
+                            break;
                     }
                 }
             }
