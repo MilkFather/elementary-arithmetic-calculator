@@ -1,4 +1,4 @@
-Â# Elementary Arithmetic Calculator
+# Elementary Arithmetic Calculator
 A simple implementation of calculator that does elementary arithmetic.
 
 ## Features
